@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en-IN">
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#2F7A4D">
 <title>Study ग्राम Coaching Institute — Varanasi</title>
 <link rel="icon" type="image/png" href="favicon.png">
 <meta name="title" content="Study ग्राम Coaching Institute — Bhadohi Road, Varanasi">
@@ -42,23 +45,34 @@
 </head>
 <body>
 
-<header class="nav">
+<a class="skip-link" href="#top">Skip to content</a>
+
+<header class="nav" id="siteNav">
   <div class="nav-inner">
     <a class="brand" href="#top">
       <img src="favicon.png" alt="Study ग्राम emblem">
       <span class="brand-name">Study <span class="hindi">ग्राम</span></span>
     </a>
-    <nav class="links">
+
+    <nav class="links" id="primaryNav">
       <a href="#programs">Programs</a>
       <a href="#why">Why Us</a>
       <a href="#achievers">Achievers</a>
       <a href="#visit">Visit</a>
+      <a class="btn btn-primary nav-cta-mobile" href="#visit">Book a free demo</a>
     </nav>
+
     <div class="nav-cta">
       <a class="btn btn-primary" href="#visit">Book a free demo</a>
     </div>
+
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="primaryNav" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
   </div>
 </header>
+
+<div class="nav-backdrop" id="navBackdrop"></div>
 
 <main id="top">
 
