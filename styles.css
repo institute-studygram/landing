@@ -202,7 +202,7 @@ h3{
   top: 100%;
   left: 0;
   right: 0;
-  background: var(--navy);
+  background: var(--paper-dim);
   border-bottom: 1px solid var(--tan);
   box-shadow: var(--shadow-soft);
   display: flex;
@@ -223,13 +223,14 @@ h3{
   padding: 13px 4px;
   text-decoration: none;
   font-weight: 500;
-  color: var(--paper);
+  color: var(--ink);
   border-bottom: 1px solid rgba(224, 228, 235, 0.07);
 }
 .links a:last-of-type{ border-bottom: 0; }
 .nav-cta-mobile.btn{
   margin-top: 12px;
   width: 100%;
+  background: var(--gold);
 }
 .nav-cta{ display: none; }
 
